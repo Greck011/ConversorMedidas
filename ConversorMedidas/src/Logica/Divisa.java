@@ -34,7 +34,7 @@ public class Divisa {
             return jsonResponse.getJSONObject("conversion_rates").getDouble(codigoDivisa);
         } catch (IOException | InterruptedException e) {
             e.printStackTrace();
-            return 510; // Valor por defecto en caso de error
+            return 460; // Valor por defecto en caso de error
         }
     }
 
